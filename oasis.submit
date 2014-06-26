@@ -1,0 +1,10 @@
+universe = vanilla
+notification=never
+executable = run_job.py
+output = logs/oasis.$(Process).out
+error = logs/oasis.$(Process).err
+log = logs/oasis.log
+ShouldTransferFiles = YES
+when_to_transfer_output = ON_EXIT
+Requirements = HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE
+queue 50
