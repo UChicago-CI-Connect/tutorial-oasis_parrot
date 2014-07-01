@@ -16,7 +16,7 @@ Remote software access
 ----------------------
 #### Simplify software access with SkeletonKey
 
-Due to the complexities involved in setting up Parrot to provide access to OASIS, users should use SkeletonKey to simplify the process involved.  SkeletonKey is a tool that
+Due to the complexities involved in setting up Parrot to provide access to OASIS, users should use SkeletonKey to simplify the process involved. 
 ##### Creating the application tarball
 
 Since we'll be running an application from OASIS, we'll create an application tarball to do some initial setup and then run the actual application
